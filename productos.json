@@ -1,0 +1,38 @@
+[
+    {
+        "id": "Remera-1",
+        "titulo": "Remera Floaming",
+        "imagen": "./img/remera4.png",
+        "precio": 1200
+    },
+    {
+        "id": "remera-2",
+        "titulo": "Remera Floaming",
+        "imagen": "./img/remera5.png",
+        "precio": 1200
+    },
+    {
+        "id": "remera-3",
+        "titulo": "Remera Floaming 3",
+        "imagen": "./img/remera3-home.png",
+        "precio": 1200
+    },
+    {
+        "id": "remera-4",
+        "titulo": "Remera Floaming 4",
+        "imagen": "./img/remera2-home.png",
+        "precio": 1200
+    },
+    {
+        "id": "remera-5",
+        "titulo": "Remera Floaming 5",
+        "imagen": "./img/remera-home.png",
+        "precio": 1200
+    },
+    {
+        "id": "remera-6",
+        "titulo": "Remera Floaming 6",
+        "imagen": "./img/remera3.png",
+        "precio": 1200
+    }
+]

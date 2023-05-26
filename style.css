@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h3 {
+  background-color: #c80e0e00;
+}
+
+p {
+  color: grey;
+}
+
+
+/* NAVBAR  */
+
+.line {
+  width: auto;
+  height: 1px;
+  background-color: rgb(248, 248, 248);
+  margin-bottom: 50px;
+
+}
+
+.logo {
+  cursor: pointer;
+  width: 250px;
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar_link {
+  font-family: 'Prompt', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.numerito {
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 15px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.984);
+  border-radius: 90px;
+}
+
+/* Responsive movil */
+
+@media (max-width: 768px) {
+  .navbar .logo {
+    width: 150px;
+    height: 50;
+  }
+
+  .banner-home {
+    width: 500px;
+    height: 400px;
+  }
+
+  .navbar_link {
+    font-size: 20px;
+    gap: 0;
+  }
+}
+
+
+
+/* HEADER */
+
+.banner-home {
+  width: 1200px;
+  height: 600px;
+  margin-bottom: 60px;
+  border: 1px double rgba(4, 35, 212, 0.253);
+}
+
+.prendas-ofertas h1 {
+  margin-bottom: 50px;
+  background-color: yellow;
+  width: 1200px;
+  height: 50px;
+  color: rgb(206, 6, 6);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.precio-card-offer {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.225);
+}
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  font-size: 11px;
+  background-color: #c80e0eb2;
+  width: 1505px;
+  height: 200px;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.instagram {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #c80e0e00;
+}
+.logo-insta {
+  cursor: pointer;
+  background-color: #c80e0e00;
+  display:flex;
+  width: 25px;
+  height: 20px;
+}
+.phone {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #c80e0e00;
+}
+.phone-icon {
+  cursor: pointer;
+  background-color: #c80e0e00;
+  display:flex;
+  width: 25px;
+  height: 20px;
+}
+.footer-copyr {
+  display: flex;
+  align-items: center;
+
+}
+
+
+/* Contenedor de las tarjetas */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  cursor: pointer;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 300px;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.precio-card {
+  color: rgb(249, 249, 249);
+}
+
+.card button {
+  background-color: #c40404c8;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card button:hover {
+  background-color: #ff0000;
+}
+
+
+/* CARRITO */
+
+.nav-carrito {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-prod {
+  width: 86px;
+  height: auto;
+}
+
+.producto-imagen {
+  display: flex;
+  justify-content: center;
+  gap: 380px;
+  align-items: center;
+}
+
+
+.subtotal-carrito{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  right: 260px;
+}
+
+.comprar-producto1 {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  right: 260px;
+
+}
+
+.comprar-producto {
+  color: white;
+  background-color: rgb(9, 218, 9);
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+

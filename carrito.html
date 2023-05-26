@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./carrito.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js
+"></script>
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css
+" rel="stylesheet">
+
+    <title>Flaming carrito</title>
+</head>
+<div class="navbar">
+    <li class="navbar_link"><a href="./index.html">Home</a></li>
+    <li class="navbar_link"><a href="./prendas.html">Prendas</a></li>
+    <img class="logo navbar_link" src="./img/LOGO.gif">
+    <li class="navbar_link"><a>About us</a></li>
+    <li class="navbar_link"><a href="./carrito.html">Carrito <span class="numerito" id="carrito-numero"> 0</span></a>
+    </li>
+</div>
+
+<body>
+    <div id="carrito-productos" class="Producto">
+        <div class="nav-carrito container">
+            <p>Producto</p>
+            <p>Cantidad</p>
+            <p>Total</p>
+            <button class="boton-borrar" id="borrar-productos">BORRAR CARRITO</button>
+            <button id="Buyy" class="comprar-producto">Comprar</button>
+        </div>
+        <div class="producto-imagen container">
+        </div>
+
+        <div id="carrito-acciones" class="acciones container"></div>
+        <div id="carrito-comprado">
+        </div>
+</body>
+
+</html>
